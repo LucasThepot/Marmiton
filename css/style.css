@@ -6,6 +6,7 @@
 body {
   font-size: 16px;
   background-color: #efefef;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
@@ -14,23 +15,27 @@ section {
   border-radius: 20px;
 }
 
-/*HEADER*/
-header {
-  background-color: white;
-  border-bottom: 1px, #f3735f;
-}
-
-p {
-  line-height: 22px;
-  margin-bottom: 20px;
-}
-
 h1 {
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   color: #393c6c;
 }
+/*HEADER*/
+header {
+  background-color: white;
+  border-bottom: 1px, #f3735f;
+  height: 80px;
+  margin-bottom: 40px;
+}
+header img {
+  width: 200px;
+}
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
 h2 {
   font-size: 30px;
   font-weight: bold;
@@ -43,10 +48,11 @@ h3 {
   font-weight: bold;
   color: #393c6c;
   line-height: 22px;
+  margin-top: 50px;
 }
 #crepesimg img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   padding-left: 40px;
   border-radius: 10px;
@@ -54,7 +60,8 @@ h3 {
 
 .baseline {
   text-align: center;
-  margin-top: 8px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .boutonTempsTotal {
@@ -72,9 +79,20 @@ footer {
 
 li {
   list-style-type: disc;
+  margin-bottom: 8px;
 }
 
 .padding {
   padding-left: 40px;
-  border: 1px red solid;
+  padding-bottom: 50px;
+}
+.time {
+  margin: 0 auto;
+  width: 300px;
+  background-color: #8a98b1;
+  color: white;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 50px;
 }
